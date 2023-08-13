@@ -1,6 +1,12 @@
+-- PermShiftlockTesting
+-- Test
+
+-- Instances:
+
 local ShiftlockStarterGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 
+--Properties:
 
 ShiftlockStarterGui.Name = "Shiftlock (StarterGui)"
 ShiftlockStarterGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -15,6 +21,7 @@ ImageButton.Size = UDim2.new(0.0636147112, 0, 0.0661305636, 0)
 ImageButton.SizeConstraint = Enum.SizeConstraint.RelativeXX
 ImageButton.Image = "http://www.roblox.com/asset/?id=182223762"
 
+-- Scripts:
 
 local function TLQOYN_fake_script() -- ImageButton.ShiftGUI 
 	local script = Instance.new('LocalScript', ImageButton)
@@ -94,8 +101,7 @@ local function TLQOYN_fake_script() -- ImageButton.ShiftGUI
 end
 coroutine.wrap(TLQOYN_fake_script)()
 local function OMQRQRC_fake_script() -- ShiftlockStarterGui.LocalScript 
-ShiftlockStarterGui.ResetOnSpawn = false	
-local script = Instance.new('LocalScript', ShiftlockStarterGui)
+	local script = Instance.new('LocalScript', ShiftlockStarterGui)
 
 	local Players = game:GetService("Players")
 	local UserInputService = game:GetService("UserInputService")
@@ -113,8 +119,7 @@ local script = Instance.new('LocalScript', ShiftlockStarterGui)
 	local IsShiftLocked = true
 	local IsActionBound = false
 	local IsInFirstPerson = false
-	local IsResetOnSpawn = false
-ShiftLockController.OnShiftLockToggled = Instance.new("BindableEvent")
+	ShiftLockController.OnShiftLockToggled = Instance.new("BindableEvent")
 	local function isShiftLockMode()
 		return LocalPlayer.DevEnableMouseLock and GameSettings.ControlMode == Enum.ControlMode.MouseLockSwitch and LocalPlayer.DevComputerMovementMode ~= Enum.DevComputerMovementMode.ClickToMove and GameSettings.ComputerMovementMode ~= Enum.ComputerMovementMode.ClickToMove and LocalPlayer.DevComputerMovementMode ~= Enum.DevComputerMovementMode.Scriptable
 	end
@@ -220,4 +225,4 @@ ShiftLockController.OnShiftLockToggled = Instance.new("BindableEvent")
 	return ShiftLockController
 	
 end
-coroutine.wrap(OMQRQRC_fake_script)(
+coroutine.wrap(OMQRQRC_fake_script)()
