@@ -20,7 +20,6 @@ Notification:Notify(
 local ShiftlockStarterGui = Instance.new("ScreenGui")
 local ImageButton = Instance.new("ImageButton")
 
---Properties:
 
 ShiftlockStarterGui.Name = "Shiftlock (StarterGui)"
 ShiftlockStarterGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -35,7 +34,6 @@ ImageButton.Size = UDim2.new(0.0636147112, 0, 0.0661305636, 0)
 ImageButton.SizeConstraint = Enum.SizeConstraint.RelativeXX
 ImageButton.Image = "http://www.roblox.com/asset/?id=182223762"
 
--- Scripts:
 
 local function TLQOYN_fake_script() -- ImageButton.ShiftGUI 
 	local script = Instance.new('LocalScript', ImageButton)
