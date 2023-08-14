@@ -17,7 +17,7 @@ Notification:Notify(
     {Title = "Script Executing... ", Description = " take a few seconds..."},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
-wait(3)
+wait(1)
 Notification:Notify(
     {Title = "Script Executed! ", Description = " type PermShiftlockV2 Executed"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
