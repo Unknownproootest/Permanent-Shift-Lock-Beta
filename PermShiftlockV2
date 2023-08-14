@@ -2,22 +2,26 @@ local NotificationHolder = loadstring(game:HttpGet("https://raw.githubuserconten
 local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
 
 Notification:Notify(
-    {Title = "WARNING U CANT USE IT", Description = "THIS IS FOR TESTING"},
+    {Title = "Release Script", Description = "coded by Unknownproooolucky"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "option"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
 )
 wait(3)
 Notification:Notify(
-    {Title = "U Died", Description = "THE CAMERA IS BUG"},
+    {Title = "Powered by Github", Description = "This is for testing"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
 wait(3)
 Notification:Notify(
-    {Title = "SCRIPT LOADED! ", Description = " type PermShiftlockV2"},
+    {Title = "Script Executing... ", Description = " take a few seconds..."},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
 ) 
-		
+wait(3)
+Notification:Notify(
+    {Title = "Script Executed! ", Description = " type PermShiftlockV2 Executed"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+) 		
 
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Testing/alt/PermShiftlockV2-alt'))()
