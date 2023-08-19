@@ -17,7 +17,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Perm
     print("Clicked")
 end)
 Section:NewButton("PermShiftlock Tablet", "Tablet Version", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/alt/PermShiftlockV2-alt'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/PermShiftlockV2'))()
     print("Clicked")
 end)
 local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
