@@ -8,19 +8,19 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = "Powered by ScriptBlox And Github", Description = "Coded By Unknownproooolucky"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "image"},
+    {Title = "Subscribe to tibe_D4RK in YT", Description = "Coded By Unknownproooolucky"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
 wait(1)
 Notification:Notify(
-    {Title = "Script Executing... ", Description = " take a few seconds..."},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+    {Title = "Script Executing... ", Description = " Finding Lua Script..."},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 1, Type = "default"}
 ) 
 wait(1)
 Notification:Notify(
     {Title = "Script Executed! ", Description = " type PermShiftlockTablet Executed"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 5, Type = "default"}
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 1, Type = "default"}
 ) 		
 
 
