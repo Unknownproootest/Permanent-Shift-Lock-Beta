@@ -24,6 +24,8 @@ local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 
 local Section = Tab:NewSection("Alpha Version")
 
+local Section = Tab:NewSection("Status Updating: 🔴")
+
 Section:NewButton("Smooth shiftlock *NOT PERMANENT*", "coding gui yet", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/alt/Smooth-shiftlock'))()
     print("Clicked")
