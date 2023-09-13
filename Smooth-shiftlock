@@ -11,3 +11,5 @@ rs.RenderStepped:Connect(function()
 	local tween = ts:Create(hrp, TweenInfo.new(0.5), {["CFrame"] = CFrame.new(hrp.CFrame.Position) * CFrame.fromOrientation(0, ry, 0)})
 	tween:Play()
 end)
+
+ResetOnSpawn = true -- if u set this false it will never reset
