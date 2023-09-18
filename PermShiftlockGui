@@ -11,22 +11,26 @@ Notification:Notify(
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Coded By Unknownproooolucky", "DarkTheme")
 local Tab = Window:NewTab("PermShiftlock")
-local Section = Tab:NewSection("All Script")
+local Section = Tab:NewSection("Right Shiftlock")
 Section:NewButton("Permanent Shift lock (Mobile) ", "Mobile Version", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Script/main/PermShiftlock'))()
     print("Clicked")
 end)
+
 Section:NewButton("Permanent Shift lock (Tablet/iPad) ", "Tablet Version", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/PermShiftlockV2'))()
     print("Clicked")
 end)
-local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 
-local Section = Tab:NewSection("Alpha Version")
+local Section = Tab:NewSection("Left Shiftlock")
+Section:NewButton("Permanent Left Shift lock ", "Both Device", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/PermShiftlockLeftMain'))()
+    print("Clicked")
+end)
+
+local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 
 local Section = Tab:NewSection("Status Updating: 🟡")
 
-Section:NewButton("Smooth shiftlock *NOT PERMANENT*", "coding gui yet", function()
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/alt/Smooth-shiftlock'))()
-    print("Clicked")
-end)
+local Section = Tab:NewSection("Removed Smooth shiftlock Cuz its so many issue")
