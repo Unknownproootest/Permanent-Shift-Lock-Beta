@@ -23,7 +23,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Perm
 end)
 
 local Section = Tab:NewSection("Left Shiftlock")
-Section:NewButton("Permanent Left Shift lock ", "Both Device", function()
+Section:NewButton("Permanent Shift lock (Left) ", "Both Device", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/PermShiftlockLeftMain'))()
     print("Clicked")
