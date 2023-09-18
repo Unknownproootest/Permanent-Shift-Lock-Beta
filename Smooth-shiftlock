@@ -1,15 +1,2 @@
-local player = game.Players.LocalPlayer
-local character = player.Character or player.CharacterAdded:Wait()
-local hrp = character:WaitForChild("HumanoidRootPart")
-local camera = workspace.CurrentCamera
-
-local rs = game:GetService("RunService")
-local ts = game:GetService("TweenService")
-
-rs.RenderStepped:Connect(function()
-	local rx, ry, rz = camera.CFrame:ToOrientation()
-	local tween = ts:Create(hrp, TweenInfo.new(0.5), {["CFrame"] = CFrame.new(hrp.CFrame.Position) * CFrame.fromOrientation(0, ry, 0)})
-	tween:Play()
-end)
-
-ResetOnSpawn = true -- if u set this false it will never reset
+-- Removed Smooth shiftlock Cuz its so many issue
+-- we will put at back soon!
