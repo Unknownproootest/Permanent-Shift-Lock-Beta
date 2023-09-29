@@ -31,6 +31,6 @@ end)
 
 local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 
-local Section = Tab:NewSection("Status Updating: 🟢")
+local Section = Tab:NewSection("Status Updating: 🔴")
 
 local Section = Tab:NewSection("Removed Smooth shiftlock Cuz its so many issue")
