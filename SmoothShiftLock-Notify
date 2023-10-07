@@ -8,7 +8,7 @@ Notification:Notify(
 )
 wait(3)
 Notification:Notify(
-    {Title = "Search Lua...", Description = "Coded By Unknownproooolucky"},
+    {Title = "Announcement", Description = "There no lock texture i will adding soon"},
     {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 10, Type = "image"},
     {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
 )
