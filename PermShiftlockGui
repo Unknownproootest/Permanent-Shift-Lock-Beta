@@ -11,6 +11,7 @@ Notification:Notify(
 local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
 local Window = Library.CreateLib("Coded By Unknownproooolucky", "DarkTheme")
 local Tab = Window:NewTab("PermShiftlock")
+local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 local Section = Tab:NewSection("Right Shiftlock")
 Section:NewButton("Permanent Shift lock (Mobile) ", "Mobile Version", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Script/main/PermShiftlock'))()
@@ -29,13 +30,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Perm
     print("Clicked")
 end)
 
-local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
-
-local Section = Tab:NewSection("Status Updating: 🟡")
+local Section = Tab:NewSection("Status Updating: 🟢")
 
 local Section = Tab:NewSection("Alpha Version")
-Section:NewButton("Smooth Shiftlock (test)", "idk coding yet again", function()
+Section:NewButton("Smooth Shiftlock (Toggle)", "idk coding yet again if is work every device", function()
 
-loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Scriptblox/main/TestingV2'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/SmoothShiftLock-Notify'))()
     print("Clicked")
 end)
