@@ -31,6 +31,11 @@ end)
 
 local Section = Tab:NewSection("READ!!! Its Allow Microsoft")
 
-local Section = Tab:NewSection("Status Updating: 🔴")
+local Section = Tab:NewSection("Status Updating: 🟡")
 
-local Section = Tab:NewSection("Removed Smooth shiftlock Cuz its so many issue")
+local Section = Tab:NewSection("Alpha Version")
+Section:NewButton("Smooth Shiftlock (test)", "idk coding yet again", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Scriptblox/main/TestingV2'))()
+    print("Clicked")
+end)
