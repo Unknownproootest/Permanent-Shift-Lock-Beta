@@ -38,3 +38,11 @@ Section:NewButton("Smooth Shiftlock (Toggle)", "idk coding yet again if is work 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/main/SmoothShiftLock-Notify'))()
     print("Clicked")
 end)
+local Tab = Window:NewTab("   ")
+local Section = Tab:NewSection("u found it ;-; this is a test ")
+local Section = Tab:NewSection("Crosshair_Lock ")
+Section:NewButton("   ", "idk coding yet again if is work every device", function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Scriptblox/main/TestingV2'))()
+    print("Clicked")
+end)
