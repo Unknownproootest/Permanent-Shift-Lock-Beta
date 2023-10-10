@@ -40,7 +40,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Perm
 end)
 local Tab = Window:NewTab("   ")
 local Section = Tab:NewSection("u found it ;-; this is a test ")
-local Section = Tab:NewSection("Crosshair_Lock ")
+local Section = Tab:NewSection("Crosshair_Lock Test ")
 Section:NewButton("   ", "idk coding yet again if is work every device", function()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Scriptblox/main/TestingV2'))()
